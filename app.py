@@ -14,3 +14,6 @@ def get_student(student_id):
 
 if __name__ == "__main__":
     print(get_students())
+    def add_student(students, new_student):
+    students.append(new_student)
+    return students
